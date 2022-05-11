@@ -1,6 +1,6 @@
 # jitsi Generator
 
-[Jitsi] is an awesome video conference tool but the default link generator is weird.
+[Jitsi](https://meet.jit.si/) is an awesome video conference tool but the default link generator is weird.
 
 ## Command Line tool
 
