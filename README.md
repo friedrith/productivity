@@ -1,5 +1,6 @@
 # Productivity
 
-This repository contains a collection of useful scripts for productivity.
+This is a collection of useful scripts for productivity. They
+are easily pluggable to [rasycast](https://www.raycast.com/) launcher or Apple Shortcuts
 
-- [generate-jitsi](./generate-jitsi/)
+- [Generate Jitsi link](./generate-jitsi.md)
