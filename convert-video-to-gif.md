@@ -6,9 +6,9 @@ It is particulary useful when you want to add a screen recording to your Pull Re
 
 It uses the best settings to keep the GIF file size as small as possible since some platforms have a very low size limit for image files. It also maintains a good quality while reducing the framerate.
 
-The script uses [`ffmpeg`](https://ffmpeg.org/) to extract the video frames and [`ImageMagick`](https://imagemagick.org/) to convert the frames to a GIF file.
-
 ## Getting started
+
+The script uses [`ffmpeg`](https://ffmpeg.org/) to extract the video frames and [`ImageMagick`](https://imagemagick.org/) to convert the frames to a GIF file.
 
 ```bash
 brew install ffmpeg imagemagick
@@ -22,6 +22,8 @@ This script is available as a Apple shortcut. You can download it from the link 
 https://www.icloud.com/shortcuts/ec417cfcb32941f7aa9316b3c44c32ff
 
 Then you will be able to convert a video to a GIF file from the context menu on the Finder app.
+
+![convert a video from the context menu](https://github.com/friedrith/productivity/assets/4005226/f2c04459-5c39-45af-b2af-6b19cda7fdce)
 
 Or you can run the script directly:
 
