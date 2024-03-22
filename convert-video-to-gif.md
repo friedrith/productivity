@@ -23,7 +23,7 @@ https://www.icloud.com/shortcuts/ec417cfcb32941f7aa9316b3c44c32ff
 
 Then you will be able to convert a video to a GIF file from the context menu on the Finder app.
 
-![convert a video from the context menu](https://github.com/friedrith/productivity/assets/4005226/f2c04459-5c39-45af-b2af-6b19cda7fdce)
+![convert a video from the context menu](https://github.com/friedrith/productivity/assets/4005226/d9ff32f1-4a83-4409-ba1a-a3bae35df3d5)
 
 Or you can run the script directly:
 
