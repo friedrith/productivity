@@ -22,7 +22,7 @@ arch -arm64 brew install ffmpeg imagemagick
 
 This tool is available as a Apple shortcut. You can install it from the link below:
 
-https://www.icloud.com/shortcuts/ec417cfcb32941f7aa9316b3c44c32ff
+[https://www.icloud.com/shortcuts/db18892750f3453c83d57281915be17f](https://www.icloud.com/shortcuts/db18892750f3453c83d57281915be17f)
 
 Then you will be able to convert a video to a GIF file from the context menu on the Finder app.
 
