@@ -18,7 +18,7 @@ brew install ffmpeg imagemagick
 arch -arm64 brew install ffmpeg imagemagick
 ```
 
-## Apple Shortcut
+### Apple Shortcut
 
 This tool is available as a Apple shortcut. You can install it from the link below:
 
@@ -28,7 +28,7 @@ Then you will be able to convert a video to a GIF file from the context menu on 
 
 ![convert a video from the context menu](https://github.com/friedrith/productivity/assets/4005226/d9ff32f1-4a83-4409-ba1a-a3bae35df3d5)
 
-## Script
+### Script
 
 You can also run the script directly:
 
