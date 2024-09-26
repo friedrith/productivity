@@ -3,7 +3,24 @@
 # Require ffmpeg and imagemagick installed
 
 # Define the ffmpeg path
-FFMPEG_PATH=~/Applications/ffmpeg
+FFMPEG_PATH=`which ffmpeg`
+if [ $? -ne 0 ]; then
+    FFMPEG_PATH=~/Applications/ffmpeg
+    $FFMPEG_PATH -version > /dev/null 2>&1
+    if [ $? -ne 0 ]; then
+        echo "Failed to locate FFMPEG library "
+        osascript -e 'tell app "System Events" to display dialog "Failed to locate FFMPEG library " with title "'$window_title_end'" buttons {"CANCEL"} default button "CANCEL"'
+        exit 1
+    fi
+fi
+
+# Check imagemagic installation
+convert -version > /dev/null 2>&1
+if [ $? -ne 0 ]; then
+    echo "Failed to locate IMAGEMAGIC library"
+    osascript -e 'tell app "System Events" to display dialog "Failed to locate IMAGEMAGIC library " with title "'$window_title_end'" buttons {"CANCEL"} default button "CANCEL"'
+    exit 1
+fi
 
 # If you want to make a shell script exit whenever any command within the script fails, you can use the set -e option.
 # This option tells the shell to exit immediately if any command within the script exits with a non-zero status.
@@ -11,7 +28,7 @@ set -e
 
 # Check if the video file is passed as an argument
 if [ -z "$1" ]; then
-    osascript -e 'display dialog "No video file specified." buttons {"OK"}'
+    osascript -e 'display dialog "No video file specified." buttons {"CANCEL"}'
     exit 1
 fi
 
@@ -119,7 +136,8 @@ else
     osascript -e 'display notification "Failed to generate GIF from '$videoFilename'." with title "GIF Conversion Error"'
 
     # Show a dialog box if the conversion fails
-    osascript -e 'tell app "System Events" to display dialog "Failed to generate GIF from '$videoFilename'." with title "'$window_title_end'" buttons {"OK"} default button "OK"'
+    echo "Failed to generate GIF from '$videoFilename'."
+    osascript -e 'tell app "System Events" to display dialog "Failed to generate GIF from '$videoFilename'." with title "'$window_title_end'" buttons {"CANCEL"} default button "CANCEL"'
     exit 1
 fi
 
