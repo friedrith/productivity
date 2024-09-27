@@ -84,19 +84,19 @@ osascript -e 'tell app "System Events" to display dialog "Starting GIF conversio
 # Frames per second to extract (adjust to control smoothness and file size).
 # The higher value, more frames are extracted, smoother animation and bigger resulting size
 # Default 10
-fps=5
+fps=10
 
 # Factor to speed up or slow down the video (1 means normal speed; less than 1 speeds up, greater than 1 slows down)
 # To speed up video by 2x: => '0.5'
-setpts_factor=0.75
+setpts_factor=1
 
 # Delay between frames in the GIF (in 1/100th of a second; lower values make the GIF play faster)
 # Default 10
-delay=6
+delay=10
 
 # Number of frames to skip (1 means no skipping; higher values skip more frames)
 # select='not(mod(n\\,${skip_frames}))' => The select filter picks frames based on the modulo of the frame number.
-skip_frames=2
+skip_frames=1
 
 # --- End of Key Parameters ---
 # filtersO="select='not(mod(n\,10))',setpts=1*PTS,fps=10,scale=1000:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128[p];[s1][p]paletteuse=dither=bayer"
