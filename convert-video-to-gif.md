@@ -19,7 +19,9 @@ arch -arm64 brew install ffmpeg imagemagick
 ```
 
 ## Installation
-This tool is available as an [Apple shortcut](#apple-shortcut). Alternatively, as [Apple Automator Workflow](#apple-automator-workflow), if **Shortcut** won't work on your Mac for some reason.
+This tool is available as an [Apple shortcut](#apple-shortcut) - <ins>recommended</ins> option.<br>
+Alternatively, as [Apple Automator Workflow](#apple-automator-workflow), if **Shortcut** won't work on your Mac for some reason.<br>
+You can also opt in to use this tool directly from [script](#script).
 
 ### Apple Shortcut
 This is a <ins>recommended</ins> way of installing this tool on your Mac – as an **Apple shortcut**.
@@ -33,7 +35,9 @@ Then you will be able to convert a video to a GIF file from the context menu on 
   <summary>expand to see the figure</summary>
 
   ![convert a video from the context menu](https://github.com/friedrith/productivity/assets/4005226/d9ff32f1-4a83-4409-ba1a-a3bae35df3d5)
-</details>
+</details><br>
+
+After the installation of the **Apple Shortcut**, you can check how to use it via [script](#script) (and skip the following **Apple Automator Workflow** section).
 
 ### Apple Automator Workflow
 This is an <ins>alternative</ins> way of installing this tool on your Mac - as an **Automator Workflow**. It requires more setup to do, but it could be a fallback installation process if **Apple Shortcuts** is not available on your Mac (i.e. unsupported version).
@@ -63,7 +67,9 @@ Then you will be able to convert a video to a GIF file from the context menu on 
   <summary>expand to see the Quick Action context menu figure</summary>
 
   ![convert a video from the context menu](./assets/Convert_Video_Context_menu.png)
-</details>
+</details><br>
+
+As mentioned earlier, you can opt in to use this tool via [script](#script) bellow.
 
 ### Script
 
