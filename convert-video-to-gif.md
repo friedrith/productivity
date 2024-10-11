@@ -85,6 +85,8 @@ Or you just download it, place it somewhere like `~/bin/`, make it executable `c
 ```
 Having that script locally gives you an ability to modify the conversation key parameters inside the script.
 
+---
+Below are additional instructions of using locally parametrised script via *Quick Actions* if installed via **Automator Workflow**.<br>
 If you'd like to use the advantages of using a local script for the contextual menu from the Finder, you'd need to update the workflow in Automator
 <details>
   <summary>As indicated on the figure:</summary>
