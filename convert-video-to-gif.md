@@ -18,14 +18,31 @@ brew install ffmpeg imagemagick
 arch -arm64 brew install ffmpeg imagemagick
 ```
 
-### Apple Automator Workflow
+## Installation
+This tool is available as an [Apple shortcut](#apple-shortcut). Alternatively, as [Apple Automator Workflow](#apple-automator-workflow), if **Shortcut** won't work on your Mac for some reason.
 
-This tool is available as an Automator workflow. You can import it to your Automator from the
+### Apple Shortcut
+This is a <ins>recommended</ins> way of installing this tool on your Mac – as an **Apple shortcut**.
+You can install it from the link below:
+
+[https://www.icloud.com/shortcuts/db18892750f3453c83d57281915be17f](https://www.icloud.com/shortcuts/db18892750f3453c83d57281915be17f)
+
+Then you will be able to convert a video to a GIF file from the context menu on the Finder app, as shown in Figure below.
+
+<details>
+  <summary>expand to see the figure</summary>
+
+  ![convert a video from the context menu](https://github.com/friedrith/productivity/assets/4005226/d9ff32f1-4a83-4409-ba1a-a3bae35df3d5)
+</details>
+
+### Apple Automator Workflow
+This is an <ins>alternative</ins> way of installing this tool on your Mac - as an **Automator Workflow**. It requires more setup to do, but it could be a fallback installation process if **Apple Shortcuts** is not available on your Mac (i.e. unsupported version).
+You can import it to your **Automator** from the
 [`/assets/Convert Video to GIF.workflow`](./assets/Convert%20Video%20to%20GIF.workflow/)
 directory in this repo as **Quick Actions**.
 
 <details>
-  <summary>click here to expand the instructions</summary>
+  <summary>expand to see the instructions</summary>
 
   #### Instructions how to import the workflow
   1. Download the `.workflow` directory:
@@ -43,7 +60,7 @@ directory in this repo as **Quick Actions**.
 
 Then you will be able to convert a video to a GIF file from the context menu on the Finder app.
 <details>
-  <summary>click to see the Quick Action context menu figure</summary>
+  <summary>expand to see the Quick Action context menu figure</summary>
 
   ![convert a video from the context menu](./assets/Convert_Video_Context_menu.png)
 </details>
